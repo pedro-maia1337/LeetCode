@@ -16,10 +16,9 @@ Input: x = 120
 Output: 21
 */
 
-//Melhorar
 
-class Solution {
-    public static int reverse(int x) {
+class Solution07 {
+    public int reverse(int x) {
         int num = Math.abs(x);
         int rev = 0;
 
@@ -38,9 +37,4 @@ class Solution {
         return (x < 0) ? (-rev) : rev;
     }
 
-    public static void main(String args[]) {
-        System.out.print(reverse(-2147483648));
-    }
-
-    
 }
